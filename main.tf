@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket         = "data-quarrel23"
+    bucket         = "data-quarrel"
     key            = "terraform.tfstate"
     region         = "ap-south-1"
   }

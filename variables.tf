@@ -1,5 +1,5 @@
 variable "aws_region" {
-  description = "AWS region"
+  description = "AWS region1"
   default     = "ap-south-1"
 }
 
@@ -15,7 +15,7 @@ variable "key_name" {
 
 variable "s3_bucket_name" {
   description = "Name of the S3 bucket for remote state"
-  default = "data-quarrel23"
+  default = "data-quarrel"
 }
 
 variable "name" {
